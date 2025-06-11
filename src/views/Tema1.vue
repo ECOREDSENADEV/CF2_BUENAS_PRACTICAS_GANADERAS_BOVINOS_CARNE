@@ -17,35 +17,35 @@
               figure
                 img(src="@/assets/curso/temas/tema1/1.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Registro de Establecimientos Pecuarios (RUP)
+              h4 Registro de Establecimientos Pecuarios (RUP)
               p Identifica cada establecimiento pecuario donde hay animales de forma permanente o temporal.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/temas/tema1/2.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Dispositivo de Identificación Individual Oficial (DIIO)
+              h4 Dispositivo de Identificación Individual Oficial (DIIO)
               p Asigna un número único que permite identificar el predio de origen del animal.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/temas/tema1/3.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Declaración de Existencia Animal (DEA)
+              h4 Declaración de Existencia Animal (DEA)
               p Registra anualmente la cantidad de animales por especie y clase en cada establecimiento con RUP.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/temas/tema1/4.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Formulario de Movimiento Animal (FMA)
+              h4 Formulario de Movimiento Animal (FMA)
               p Se solicita y diligencia cada vez que se trasladan animales con DIIO o por lotes con RUP.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/temas/tema1/5.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Sistema Oficial de Información Pecuaria (SIPECweb)
+              h4 Sistema Oficial de Información Pecuaria (SIPECweb)
               p Plataforma donde se registran, almacenan y gestionan todos los datos del Programa.
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -431,7 +431,7 @@
               figure
                 img(src="@/assets/curso/temas/tema1/28.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5.mb-5 Trazabilidad hacia atrás
+              h4.mb-5 Trazabilidad hacia atrás
               ul.lista-ul--color
                 li.d-flex
                   i.far.fa-arrow-alt-circle-right.bg-color-6
@@ -450,7 +450,7 @@
               figure
                 img(src="@/assets/curso/temas/tema1/29.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5.mb-5 Trazabilidad interna
+              h4.mb-5 Trazabilidad interna
               ul.lista-ul--color
                 li.d-flex
                   i.far.fa-arrow-alt-circle-right.bg-color-6
@@ -469,7 +469,7 @@
               figure
                 img(src="@/assets/curso/temas/tema1/30.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5.mb-5 Trazabilidad hacia delante
+              h4.mb-5 Trazabilidad hacia delante
               ul.lista-ul--color
                 li.d-flex
                   i.far.fa-arrow-alt-circle-right.bg-color-6

@@ -66,35 +66,35 @@
               figure
                 img(src="@/assets/curso/temas/tema4/3.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Infraestructura
+              h4 Infraestructura
               p Reparación o adecuación de instalaciones inadecuadas para el manejo animal.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/temas/tema4/4.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Registros
+              h4 Registros
               p Actualización y mejora de sistemas de documentación (tratamientos, vacunación, alimentación, etc.).
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/temas/tema4/5.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Bioseguridad
+              h4 Bioseguridad
               p Implementación de puntos de desinfección, cuarentenas, y control de ingreso al predio.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/temas/tema4/6.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Capacitación
+              h4 Capacitación
               p Formación adicional al personal en protocolos BPG cuando se evidencie desconocimiento.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/temas/tema4/7.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Manejo ambiental
+              h4 Manejo ambiental
               p Corrección de prácticas inadecuadas en la gestión de residuos, aguas y fuentes hídricas.
     
     p Todas estas acciones deben ser documentadas y verificadas posteriormente para asegurar su eficacia.
