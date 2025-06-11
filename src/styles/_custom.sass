@@ -2,12 +2,17 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 44%
+    right: 72%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 13%
+    right: -6%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
     right: 30%
 
 @keyframes float1
@@ -21,8 +26,9 @@
 
 .banner-principal__row .banner-principal__img
   width: 400px !important  
+  padding: 0 !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
+//.titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
 
 .banner-interno__titulo__icono i
@@ -30,3 +36,92 @@
 
 figcaption
   font-weight: normal
+
+.banner-interno__fondo
+  background-image: url('../assets/curso/portada/fondo-interno.png') !important
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #E9D760
+  border-radius: 30px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: 14px
+  width: 60px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 64px
+
+.bg-color
+  &-1
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(241, 239, 227, 1) 20%, rgba(241, 239, 227, 1) 80%, rgba(255, 255, 255, 1) 100%)
+  &-2
+    background-color: #E6ECE0
+  &-3
+    background-color: #4F603D
+  &-4
+    color: #EFDB59
+  &-5
+    background-color: #CED9C1
+  &-6
+    color: #848170 !important
+  &-7
+    background-color: #F8E1DF
+  &-8
+    background-color: #F8F0BC
+  &-9
+    background-color: #F1EFE3
+
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-fondo
+  //&-1
+    background-image: url("../assets/bg/bg1.svg") !important
+    background-position: bottom
+  //&-2
+    background-image: url("../assets/bg/bg2.svg") !important
+    background-position: bottom
+  &-slider
+    background-image: url("../assets/curso/bg-slider.png") !important
+    background-position: bottom
+
+.slyder-a__btn--atrs, .slyder-a__btn--sigt 
+  background-color: #F8A230
+.slyder-a__bullets__item
+  background-color: #F9F2C5
+  border: 1px solid #F9F2C5
+.slyder-a__bullets__item--active 
+  background-color: #EFDB59
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #F8A230 !important
+.acordion__activo
+  background-color: #F8E1DF !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
