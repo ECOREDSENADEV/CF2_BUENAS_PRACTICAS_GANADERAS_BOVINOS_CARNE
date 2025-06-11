@@ -11,10 +11,10 @@
     .bg-full-width.bg-color-1.mb-5
       .px-4.px-md-5.py-4
         .row.mb-5
-          .col-lg-4.order-2
+          .col-lg-4.order-lg-2.mb-3.mb-lg-0    
             figure
               img(src="@/assets/curso/intro/1.png", data-aos="zoom-in")
-          .col-lg-8.order-1.mb-3.mb-lg-0        
+          .col-lg-8.order-lg-1    
             .bg-color-2.tarjeta.p-5(data-aos="fade-left")
                 p.mb-0 La producción de carne bovina en Colombia ha evolucionado hacia modelos sostenibles que integran criterios de trazabilidad, sanidad, bienestar animal y responsabilidad ambiental. En este contexto, las Buenas Prácticas Ganaderas (BPG) se han consolidado como un pilar esencial para garantizar productos cárnicos seguros, trazables y aceptados en mercados nacionales e internacionales. El componente formativo que se presenta ofrece las bases conceptuales y técnicas para comprender y aplicar estas prácticas en entornos productivos reales.
     

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 1.	Trazabilidad de la producción
+      h1 Trazabilidad de la producción
     
     p.mb-5 El Servicio Agrícola y Ganadero implementa la Trazabilidad Animal para fortalecer la seguridad en la producción ganadera. Este proceso permite identificar y seguir el rastro de cada animal desde su origen hasta su destino final, mediante un sistema estructurado de registros y controles oficiales.
 
@@ -54,8 +54,8 @@
         h3.titulo-con-imagen__texto El proceso de trazabilidad
     
   
-    .row.align-items-center.mb-5
-      .col-lg-2.order-lg-2.mb-3.mb-lg-0
+    .row.align-items-center.mb-5.justify-content-center
+      .col-md-6.col-lg-2.order-lg-2.mb-3.mb-lg-0
         img(src="@/assets/curso/temas/tema1/6.svg").mx-auto
       .col-lg-10.order-lg-1
         p.mb-0 La trazabilidad en las Buenas Prácticas Ganaderas (BPG) para la producción de carne en Colombia comprende un conjunto de procedimientos organizados y sistemáticos que permiten registrar, identificar y dar seguimiento al recorrido de los animales y sus productos, desde el inicio del proceso en la finca ganadera hasta su llegada al consumidor final. Este sistema abarca todas las fases: producción, transformación y comercialización, con el objetivo de garantizar la inocuidad alimentaria, la sanidad y el bienestar animal, así como la protección del medio ambiente.
@@ -67,8 +67,8 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Mediante la trazabilidad se logra identificar y registrar a cada animal y sus productos en todas las etapas del proceso productivo, lo cual incluye nacimiento, alimentación, salud, transporte, sacrificio y comercialización. Esta capacidad de seguimiento permite reconstruir la historia completa de cada animal, lo que resulta esencial para responder oportunamente ante situaciones sanitarias y asegurar la calidad de la carne destinada al consumo humano.
     
-    .row.align-items-center.mb-5
-      .col-lg-2.mb-3.mb-lg-0
+    .row.align-items-center.mb-5.justify-content-center
+      .col-md-6.col-lg-2.mb-3.mb-lg-0
         img(src="@/assets/curso/temas/tema1/8.svg").mx-auto
       .col-lg-10
         p.mb-0 Además, el sistema de trazabilidad cuenta con una base de datos que almacena información detallada desde el nacimiento del animal hasta su sacrificio, permitiendo también rastrear sus subproductos a lo largo de toda la cadena productiva. Con ello, se fortalece la confianza en la calidad y seguridad de la carne, cumpliendo con los estándares establecidos tanto a nivel nacional como internacional.
@@ -377,8 +377,8 @@
     .titulo-segundo.color-acento-contenido
       h2 1.2 Sistema Nacional de Identificación e Información del Ganado Bovino (SINIGAN)
     
-    .row.align-items-center.mb-5
-      .col-lg-2.order-lg-2.mb-3.mb-lg-0
+    .row.align-items-center.mb-5.justify-content-center
+      .col-md-6.col-lg-2.order-lg-2.mb-3.mb-lg-0
         img(src="@/assets/curso/temas/tema1/26.svg").mx-auto
       .col-lg-10.order-lg-1
         p.mb-0 El Instituto Colombiano Agropecuario (ICA) administra el Sistema Nacional de Identificación e Información del Ganado Bovino (SINIGAN), creado mediante la Ley 914 de 2004. Este sistema permite registrar e identificar individualmente a cada animal, asegurando un seguimiento detallado de su historial sanitario y productivo en toda la cadena de valor.

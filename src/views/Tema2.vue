@@ -10,10 +10,10 @@
     .bg-full-width.bg-color-1.mb-5
       .px-4.px-md-5.py-4
         .row.mb-5
-          .col-lg-4.order-2
+          .col-lg-4.order-lg-2.mb-3.mb-lg-0 
             figure
               img(src="@/assets/curso/temas/tema2/1.png", data-aos="zoom-in")
-          .col-lg-8.order-1.mb-3.mb-lg-0        
+          .col-lg-8.order-lg-1       
             .bg-color-2.tarjeta.p-5(data-aos="fade-left")
                 p.mb-0 La <b>gestión del personal</b> en una empresa ganadera certificada en Buenas Prácticas Ganaderas (BPG) comprende un conjunto de acciones orientadas a <b>organizar, capacitar, supervisar y evaluar</b> al equipo humano responsable de la producción pecuaria. Su finalidad es garantizar el cumplimiento de los estándares exigidos por el ICA y por los mercados nacionales e internacionales en aspectos como sanidad animal, inocuidad alimentaria, bienestar animal y sostenibilidad.
         
@@ -124,7 +124,7 @@
         .row.justify-content-center
           .col-lg-8
             .titulo-sexto.color-acento-contenido
-              h5 Tabla 1
+              h5 Tabla 1.
               span Temas de capacitación obligatoria
             
             .tabla-a.color-acento-botones
@@ -196,7 +196,7 @@
     
     .bg-full-width.bg-fondo-1
       .px-4.px-md-5.pb-md-3
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.align-items-center.mb-5
           .col-lg-8.mb-3.mb-lg-0.order-lg-2
             SlyderF(columnas="col-12 col-lg-6")
               .bg-color-white.p-4.h-100.shadow-app
